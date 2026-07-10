@@ -122,64 +122,6 @@ Node.js REST API.
 
 ---
 
-# Project Architecture
-
-```mermaid
-graph LR
-
-User
-
-↓
-
-Angular Frontend
-
-↓
-
-HTTP Interceptor
-
-↓
-
-REST API
-
-↓
-
-JWT Middleware
-
-↓
-
-Controllers
-
-↓
-
-MySQL Database
-```
-
----
-
-# Authentication Flow
-
-```mermaid
-sequenceDiagram
-
-User->>Frontend: Login
-
-Frontend->>Backend: Credentials
-
-Backend->>JWT: Generate Token
-
-JWT-->>Frontend: Token
-
-Frontend->>LocalStorage: Save Session
-
-Frontend->>Backend: Protected Request
-
-Backend->>JWT Middleware: Validate
-
-JWT Middleware-->>Controller: Authorized
-```
-
----
-
 # Project Modules
 
 Frontend
@@ -387,7 +329,7 @@ npm install
 Run the application
 
 ```bash
-npm start
+ng s // npm run dev
 ```
 
 ---
@@ -458,5 +400,5 @@ https://github.com/diegozsr1
 
 LinkedIn:
 
-(Add your LinkedIn URL)
+https://www.linkedin.com/in/diegozapatasolano/
 
