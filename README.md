@@ -2,9 +2,7 @@
 
 <p align="center">
 
-Full Stack Marketplace Application inspired by platforms such as Wallapop.
-
-Developed as the Final Master's Project (TFM) for the Full Stack Developer Master's Degree at UNIR.
+Buy&Sell is a full-stack marketplace platform inspired by second-hand marketplaces such as Wallapop. It was developed collaboratively using Angular, Express and MySQL following modern software engineering practices.
 
 </p>
 
